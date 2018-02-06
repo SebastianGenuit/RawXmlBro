@@ -74,7 +74,8 @@
             this.helpToolStripMenuItem});
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
-            this.menuStrip.Size = new System.Drawing.Size(736, 24);
+            this.menuStrip.Padding = new System.Windows.Forms.Padding(8, 2, 0, 2);
+            this.menuStrip.Size = new System.Drawing.Size(981, 28);
             this.menuStrip.TabIndex = 0;
             this.menuStrip.Text = "menuStrip1";
             // 
@@ -84,14 +85,14 @@
             this.openToolStripMenuItem,
             this.quitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(44, 24);
             this.fileToolStripMenuItem.Text = "File";
             // 
             // openToolStripMenuItem
             // 
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
             this.openToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(177, 26);
             this.openToolStripMenuItem.Text = "Open";
             this.openToolStripMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
             // 
@@ -99,7 +100,7 @@
             // 
             this.quitToolStripMenuItem.Name = "quitToolStripMenuItem";
             this.quitToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.F4)));
-            this.quitToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.quitToolStripMenuItem.Size = new System.Drawing.Size(177, 26);
             this.quitToolStripMenuItem.Text = "Quit";
             this.quitToolStripMenuItem.Click += new System.EventHandler(this.quitToolStripMenuItem_Click);
             // 
@@ -112,14 +113,14 @@
             this.searchToolStripMenuItem});
             this.browseToolStripMenuItem.Name = "browseToolStripMenuItem";
             this.browseToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.browseToolStripMenuItem.Size = new System.Drawing.Size(57, 20);
+            this.browseToolStripMenuItem.Size = new System.Drawing.Size(69, 24);
             this.browseToolStripMenuItem.Text = "Browse";
             // 
             // forwardToolStripMenuItem
             // 
             this.forwardToolStripMenuItem.Name = "forwardToolStripMenuItem";
             this.forwardToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Right)));
-            this.forwardToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
+            this.forwardToolStripMenuItem.Size = new System.Drawing.Size(225, 26);
             this.forwardToolStripMenuItem.Text = "Forwards";
             this.forwardToolStripMenuItem.Click += new System.EventHandler(this.forwardToolStripMenuItem_Click);
             // 
@@ -127,7 +128,7 @@
             // 
             this.backwardsToolStripMenuItem.Name = "backwardsToolStripMenuItem";
             this.backwardsToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.Left)));
-            this.backwardsToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
+            this.backwardsToolStripMenuItem.Size = new System.Drawing.Size(225, 26);
             this.backwardsToolStripMenuItem.Text = "Backwards";
             this.backwardsToolStripMenuItem.Click += new System.EventHandler(this.backwardsToolStripMenuItem_Click);
             // 
@@ -135,7 +136,7 @@
             // 
             this.showXPathToolStripMenuItem.Name = "showXPathToolStripMenuItem";
             this.showXPathToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
-            this.showXPathToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
+            this.showXPathToolStripMenuItem.Size = new System.Drawing.Size(225, 26);
             this.showXPathToolStripMenuItem.Text = "Show xPath";
             // 
             // searchToolStripMenuItem
@@ -144,7 +145,7 @@
             this.findElementToolStripMenuItem,
             this.continueToolStripMenuItem});
             this.searchToolStripMenuItem.Name = "searchToolStripMenuItem";
-            this.searchToolStripMenuItem.Size = new System.Drawing.Size(186, 22);
+            this.searchToolStripMenuItem.Size = new System.Drawing.Size(225, 26);
             this.searchToolStripMenuItem.Text = "Search";
             // 
             // findElementToolStripMenuItem
@@ -152,7 +153,7 @@
             this.findElementToolStripMenuItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.findElementToolStripMenuItem.Name = "findElementToolStripMenuItem";
             this.findElementToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.F)));
-            this.findElementToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
+            this.findElementToolStripMenuItem.Size = new System.Drawing.Size(223, 26);
             this.findElementToolStripMenuItem.Text = "Find Element";
             this.findElementToolStripMenuItem.Click += new System.EventHandler(this.findElementToolStripMenuItem_Click);
             // 
@@ -160,7 +161,7 @@
             // 
             this.continueToolStripMenuItem.Name = "continueToolStripMenuItem";
             this.continueToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F3;
-            this.continueToolStripMenuItem.Size = new System.Drawing.Size(185, 22);
+            this.continueToolStripMenuItem.Size = new System.Drawing.Size(223, 26);
             this.continueToolStripMenuItem.Text = "Continue...";
             this.continueToolStripMenuItem.Click += new System.EventHandler(this.continueToolStripMenuItem_Click);
             // 
@@ -169,13 +170,13 @@
             this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.howToUseXPathSyntaxToolStripMenuItem});
             this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
-            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(53, 24);
             this.helpToolStripMenuItem.Text = "Help";
             // 
             // howToUseXPathSyntaxToolStripMenuItem
             // 
             this.howToUseXPathSyntaxToolStripMenuItem.Name = "howToUseXPathSyntaxToolStripMenuItem";
-            this.howToUseXPathSyntaxToolStripMenuItem.Size = new System.Drawing.Size(203, 22);
+            this.howToUseXPathSyntaxToolStripMenuItem.Size = new System.Drawing.Size(246, 26);
             this.howToUseXPathSyntaxToolStripMenuItem.Text = "How to use xPath Syntax";
             this.howToUseXPathSyntaxToolStripMenuItem.Click += new System.EventHandler(this.howToUseXPathSyntaxToolStripMenuItem_Click);
             // 
@@ -187,9 +188,10 @@
             this.textBox_Path.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.textBox_Path.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.textBox_Path.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox_Path.Location = new System.Drawing.Point(38, 31);
+            this.textBox_Path.Location = new System.Drawing.Point(51, 38);
+            this.textBox_Path.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox_Path.Name = "textBox_Path";
-            this.textBox_Path.Size = new System.Drawing.Size(694, 20);
+            this.textBox_Path.Size = new System.Drawing.Size(925, 23);
             this.textBox_Path.TabIndex = 1;
             this.textBox_Path.WordWrap = false;
             this.textBox_Path.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox_Path_KeyDown);
@@ -221,6 +223,7 @@
             this.gridElements.DefaultCellStyle = dataGridViewCellStyle2;
             this.gridElements.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gridElements.Location = new System.Drawing.Point(0, 0);
+            this.gridElements.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.gridElements.Name = "gridElements";
             this.gridElements.ReadOnly = true;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
@@ -235,7 +238,7 @@
             dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.gridElements.RowsDefaultCellStyle = dataGridViewCellStyle4;
             this.gridElements.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.gridElements.Size = new System.Drawing.Size(528, 308);
+            this.gridElements.Size = new System.Drawing.Size(706, 380);
             this.gridElements.TabIndex = 2;
             this.gridElements.CellDoubleClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView_CellDoubleClick);
             this.gridElements.DragDrop += new System.Windows.Forms.DragEventHandler(this.gridElements_DragDrop);
@@ -269,6 +272,7 @@
             this.gridAttributes.DefaultCellStyle = dataGridViewCellStyle6;
             this.gridAttributes.Dock = System.Windows.Forms.DockStyle.Fill;
             this.gridAttributes.Location = new System.Drawing.Point(0, 0);
+            this.gridAttributes.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.gridAttributes.MultiSelect = false;
             this.gridAttributes.Name = "gridAttributes";
             this.gridAttributes.ReadOnly = true;
@@ -282,7 +286,7 @@
             this.gridAttributes.RowHeadersDefaultCellStyle = dataGridViewCellStyle7;
             this.gridAttributes.RowHeadersVisible = false;
             this.gridAttributes.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.gridAttributes.Size = new System.Drawing.Size(196, 308);
+            this.gridAttributes.Size = new System.Drawing.Size(262, 380);
             this.gridAttributes.TabIndex = 3;
             // 
             // splitContainer1
@@ -290,6 +294,7 @@
             this.splitContainer1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.splitContainer1.Location = new System.Drawing.Point(0, 0);
+            this.splitContainer1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.splitContainer1.Name = "splitContainer1";
             // 
             // splitContainer1.Panel1
@@ -302,17 +307,19 @@
             this.splitContainer1.Panel2.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.splitContainer1.Panel2.Controls.Add(this.gridElements);
             this.splitContainer1.Panel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.splitContainer1.Size = new System.Drawing.Size(736, 312);
-            this.splitContainer1.SplitterDistance = 200;
+            this.splitContainer1.Size = new System.Drawing.Size(981, 384);
+            this.splitContainer1.SplitterDistance = 266;
+            this.splitContainer1.SplitterWidth = 5;
             this.splitContainer1.TabIndex = 4;
             // 
             // buttonBack
             // 
             this.buttonBack.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("buttonBack.BackgroundImage")));
             this.buttonBack.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.buttonBack.Location = new System.Drawing.Point(5, 27);
+            this.buttonBack.Location = new System.Drawing.Point(7, 33);
+            this.buttonBack.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonBack.Name = "buttonBack";
-            this.buttonBack.Size = new System.Drawing.Size(25, 25);
+            this.buttonBack.Size = new System.Drawing.Size(33, 31);
             this.buttonBack.TabIndex = 5;
             this.buttonBack.UseVisualStyleBackColor = true;
             this.buttonBack.Click += new System.EventHandler(this.buttonBack_Click);
@@ -323,26 +330,27 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.Controls.Add(this.splitContainer1);
-            this.panel1.Location = new System.Drawing.Point(0, 58);
+            this.panel1.Location = new System.Drawing.Point(0, 71);
             this.panel1.Margin = new System.Windows.Forms.Padding(0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(736, 312);
+            this.panel1.Size = new System.Drawing.Size(981, 384);
             this.panel1.TabIndex = 6;
             // 
             // FormMain
             // 
             this.AllowDrop = true;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(736, 370);
+            this.ClientSize = new System.Drawing.Size(981, 455);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.buttonBack);
             this.Controls.Add(this.textBox_Path);
             this.Controls.Add(this.menuStrip);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FormMain";
-            this.Text = "XML Browser";
+            this.Text = "RawXmlBro";
             this.menuStrip.ResumeLayout(false);
             this.menuStrip.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridElements)).EndInit();
