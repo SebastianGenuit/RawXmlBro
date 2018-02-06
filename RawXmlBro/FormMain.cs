@@ -27,7 +27,7 @@ namespace MyXmlBrowser
         private XElement xPrevNode;
         private string serachText = "";
 
-        private string path; // ---
+        private string path;
 
         #endregion
 
