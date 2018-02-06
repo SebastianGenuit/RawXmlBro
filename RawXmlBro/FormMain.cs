@@ -71,7 +71,8 @@ namespace MyXmlBrowser
 
         private void forwardToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            BrowseForwards(gridElements.CurrentRow.Index);
+            if (gridElements.CurrentRow != null)
+                BrowseForwards(gridElements.CurrentRow.Index);
         }
 
         private void backwardsToolStripMenuItem_Click(object sender, EventArgs e)
