@@ -16,6 +16,8 @@ namespace MyXmlBrowser
 {
     public partial class FormMain : Form
     {
+        #region Fields
+
         private Color colorAttribute = Color.FromArgb(252, 228, 214);
         private Color colorElement = Color.FromArgb(217, 225, 242);
         private Color colorValue = Color.FromArgb(226, 239, 218);
@@ -27,10 +29,16 @@ namespace MyXmlBrowser
 
         private string path;
 
+        #endregion
+
+        #region Constructor
+
         public FormMain()
         {
             InitializeComponent();
         }
+
+        #endregion
 
         #region Event Handlers
 
